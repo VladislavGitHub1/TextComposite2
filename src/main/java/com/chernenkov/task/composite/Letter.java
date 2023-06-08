@@ -10,6 +10,6 @@ public class Letter implements TextComponent{
 
     @Override
     public void action() {
-        System.out.print(letter);
+        System.out.print(letter + " ");
     }
 }
