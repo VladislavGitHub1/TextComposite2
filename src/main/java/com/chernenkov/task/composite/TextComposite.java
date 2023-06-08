@@ -23,4 +23,5 @@ public class TextComposite implements TextComponent{
             component.action();
         }
     }
+
 }

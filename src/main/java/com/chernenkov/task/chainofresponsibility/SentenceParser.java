@@ -14,7 +14,7 @@ public class SentenceParser extends AbstractParser{
     @Override
     public void parse(String sentence, TextComposite sentenceComponent) {
         List<String> words = new ArrayList<>();
-        words = List.of(sentence.split("\\s+"));
+        words = List.of(sentence.split("\\s"));
         for (String word : words){
             TextComposite wordComponent = new TextComposite();
             wordComponent.setType(TextType.WORD);

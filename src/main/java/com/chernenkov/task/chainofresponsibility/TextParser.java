@@ -18,7 +18,7 @@ public class TextParser extends AbstractParser {
         textComponent.setType(TextType.TEXT);
         composite.add(textComponent);
         List<String> paragraphs = new ArrayList<>();
-        paragraphs = List.of(text.split("(\\t|\\s{4})"));
+        paragraphs = List.of(text.split("\\r?\\n"));
         for (String paragraph : paragraphs){
             TextComposite paragraphComponent = new TextComposite();
             paragraphComponent.setType(TextType.PARAGRAPH);
