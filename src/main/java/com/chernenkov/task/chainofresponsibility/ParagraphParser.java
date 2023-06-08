@@ -12,14 +12,14 @@ public class ParagraphParser extends AbstractParser{
     }
 
     @Override
-    public void parse(String paragraph, TextComposite composite) {
+    public void parse(String paragraph, TextComposite paragraphComponent) {
         List<String> sentences = new ArrayList<>();
         sentences = List.of(paragraph.split("/."));
         for (String sentence : sentences){
             TextComposite sentenceComponent = new TextComposite();
             sentenceComponent.setType(TextType.SENTENCE);
-            composite.add(sentenceComponent);
-            successor.parse(sentence, composite);
+            paragraphComponent.add(sentenceComponent);
+            successor.parse(sentence, sentenceComponent);
         }
     }
 }

@@ -9,11 +9,11 @@ import java.util.List;
 
 public class WordParser extends AbstractParser{
     @Override
-    public void parse(String word, TextComposite composite) {
+    public void parse(String word, TextComposite wordComponent) {
         char[] symbols = word.toCharArray();
         for (char symbol : symbols){
             Letter letter = new Letter(symbol);
-            composite.add(letter);
+            wordComponent.add(letter);
         }
     }
 }

@@ -22,8 +22,8 @@ public class TextParser extends AbstractParser {
         for (String paragraph : paragraphs){
             TextComposite paragraphComponent = new TextComposite();
             paragraphComponent.setType(TextType.PARAGRAPH);
-            composite.add(paragraphComponent);
-            successor.parse(paragraph, composite);
+            textComponent.add(paragraphComponent);
+            successor.parse(paragraph, paragraphComponent);
         }
     }
 }

@@ -12,14 +12,14 @@ public class SentenceParser extends AbstractParser{
     }
 
     @Override
-    public void parse(String sentence, TextComposite composite) {
+    public void parse(String sentence, TextComposite sentenceComponent) {
         List<String> words = new ArrayList<>();
         words = List.of(sentence.split("\n"));
         for (String word : words){
             TextComposite wordComponent = new TextComposite();
             wordComponent.setType(TextType.WORD);
-            composite.add(wordComponent);
-            successor.parse(word, composite);
+            sentenceComponent.add(wordComponent);
+            successor.parse(word, wordComponent);
         }
     }
 }
