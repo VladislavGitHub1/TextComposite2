@@ -21,7 +21,6 @@ public class TextComposite implements TextComponent{
     public void action() {
         for (TextComponent component : components){
             component.action();
-            System.out.println(components.size());
         }
     }
 }
