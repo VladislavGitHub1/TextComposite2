@@ -9,7 +9,7 @@ public class Letter implements TextComponent{
     }
 
     @Override
-    public String action() {
-        return null;
+    public void action() {
+        System.out.print(letter);
     }
 }

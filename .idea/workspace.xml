@@ -4,25 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d07ed8d9-e5a4-481f-b8fa-d7fdacc7def5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/text.data" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/chernenkov/task/composite/Letter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/chernenkov/task/composite/TextComponent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/chernenkov/task/composite/TextComposite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/chernenkov/task/composite/TextType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/chernenkov/task/exception/CustomException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/chernenkov/task/main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/chernenkov/task/reader/TextReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/chernenkov/task/reader/impl/TextReaderImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/chernenkov/task/validator/TextValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/chernenkov/task/validator/impl/WordValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
+    <list default="true" id="d07ed8d9-e5a4-481f-b8fa-d7fdacc7def5" name="Changes" comment="5.06.23">
+      <change afterPath="$PROJECT_DIR$/data/text.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/chernenkov/task/chainofresponsibility/AbstractParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/chernenkov/task/chainofresponsibility/ParagraphParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/chernenkov/task/chainofresponsibility/SentenceParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/chernenkov/task/chainofresponsibility/TextParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/chernenkov/task/chainofresponsibility/WordParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/text.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/chernenkov/task/composite/Letter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chernenkov/task/composite/Letter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/chernenkov/task/composite/TextComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chernenkov/task/composite/TextComponent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/chernenkov/task/composite/TextComposite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chernenkov/task/composite/TextComposite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/chernenkov/task/composite/TextType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chernenkov/task/composite/TextType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/chernenkov/task/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chernenkov/task/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/chernenkov/task/reader/TextReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chernenkov/task/reader/TextReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/chernenkov/task/reader/impl/TextReaderImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chernenkov/task/reader/impl/TextReaderImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/chernenkov/task/validator/TextValidator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/chernenkov/task/validator/impl/WordValidator.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +41,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+  </component>
   <component name="ProjectId" id="2Qkrf06JaxHQaKBMdMjvpH6sfLY" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -51,7 +54,8 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/Влад/IdeaProjects/XML",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "last_opened_file_path": "C:/Users/Влад/IdeaProjects/composite2",
     "onboarding.tips.debug.path": "C:/Users/Влад/IdeaProjects/composite2/src/main/java/org/example/Main.java",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
@@ -102,7 +106,19 @@
       <option name="presentableId" value="Default" />
       <updated>1685908522966</updated>
     </task>
+    <task id="LOCAL-00001" summary="5.06.23">
+      <created>1685976821508</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1685976821508</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="5.06.23" />
+    <option name="LAST_COMMIT_MESSAGE" value="5.06.23" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

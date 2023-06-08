@@ -18,7 +18,10 @@ public class TextComposite implements TextComponent{
     }
 
     @Override
-    public String action() {
-        return null;
+    public void action() {
+        for (TextComponent component : components){
+            component.action();
+            System.out.println(components.size());
+        }
     }
 }
