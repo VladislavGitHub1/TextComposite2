@@ -19,6 +19,7 @@ public class SentenceParser extends AbstractParser{
             TextComposite wordComponent = new TextComposite();
             wordComponent.setType(TextType.WORD);
             sentenceComponent.add(wordComponent);
+            word = word.trim();
             successor.parse(word, wordComponent);
         }
     }

@@ -1,5 +1,6 @@
 package com.chernenkov.task.composite;
 
+import java.sql.SQLOutput;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -18,10 +19,19 @@ public class TextComposite implements TextComponent{
     }
 
     @Override
-    public void action() {
-        for (TextComponent component : components){
-            component.action();
+    public String action() {
+        StringBuilder sb = new StringBuilder();
+        if (this.type == TextType.SENTENCE){
+            sb.append(" ");
+        } else if (this.type == TextType.WORD) {
+            sb.append(" ");
+        } else if (this.type == TextType.PARAGRAPH) {
+           sb.append("\n");
         }
+        for (TextComponent component : components) {
+            sb.append(component.action());
+        }
+        return sb.toString();
     }
 
 }

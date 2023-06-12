@@ -14,11 +14,12 @@ public class ParagraphParser extends AbstractParser{
     @Override
     public void parse(String paragraph, TextComposite paragraphComponent) {
         List<String> sentences = new ArrayList<>();
-        sentences = List.of(paragraph.split("[/./?/!]"));
+        sentences = List.of(paragraph.split("(?<=[.!?])\\s+"));
         for (String sentence : sentences){
             TextComposite sentenceComponent = new TextComposite();
             sentenceComponent.setType(TextType.SENTENCE);
             paragraphComponent.add(sentenceComponent);
+            sentence = sentence.trim();
             successor.parse(sentence, sentenceComponent);
         }
     }

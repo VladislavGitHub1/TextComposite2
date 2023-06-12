@@ -4,9 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d07ed8d9-e5a4-481f-b8fa-d7fdacc7def5" name="Changes" comment="8.06.23">
+    <list default="true" id="d07ed8d9-e5a4-481f-b8fa-d7fdacc7def5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/chernenkov/task/composite/Symbol.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/text.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/text.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/chernenkov/task/chainofresponsibility/ParagraphParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chernenkov/task/chainofresponsibility/ParagraphParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/chernenkov/task/chainofresponsibility/SentenceParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chernenkov/task/chainofresponsibility/SentenceParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/chernenkov/task/chainofresponsibility/TextParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chernenkov/task/chainofresponsibility/TextParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/chernenkov/task/chainofresponsibility/WordParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chernenkov/task/chainofresponsibility/WordParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/chernenkov/task/composite/Letter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/chernenkov/task/composite/TextComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chernenkov/task/composite/TextComponent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/chernenkov/task/composite/TextComposite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chernenkov/task/composite/TextComposite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/chernenkov/task/composite/TextType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chernenkov/task/composite/TextType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/chernenkov/task/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chernenkov/task/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/chernenkov/task/reader/impl/TextReaderImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chernenkov/task/reader/impl/TextReaderImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,18 +52,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Влад/IdeaProjects/composite2&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Влад/IdeaProjects/composite2/src/main/java/org/example/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "last_opened_file_path": "C:/Users/Влад/IdeaProjects/composite2",
+    "onboarding.tips.debug.path": "C:/Users/Влад/IdeaProjects/composite2/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.chernenkov.task.exception" />
@@ -118,7 +129,28 @@
       <option name="project" value="LOCAL" />
       <updated>1686238700740</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="8.06.23">
+      <created>1686239002526</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1686239002526</updated>
+    </task>
+    <task id="LOCAL-00005" summary="8.06.23">
+      <created>1686239598485</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1686239598485</updated>
+    </task>
+    <task id="LOCAL-00006" summary="8.06.23">
+      <created>1686240351609</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1686240351609</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

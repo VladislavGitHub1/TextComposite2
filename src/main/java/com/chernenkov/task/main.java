@@ -15,6 +15,6 @@ public class main {
         TextParser parser = new TextParser();
         TextComposite composite = new TextComposite();
         parser.parse(readed, composite);
-        composite.action();
+        System.out.println(composite.action());
     }
 }

@@ -30,7 +30,7 @@ public class TextReaderImpl implements TextReader {
             String line;
             resLine = new StringBuilder();
             while ((line = br.readLine()) != null) {
-              resLine.append(line);
+              resLine.append(line).append("\n");
             }
         } catch (IOException e) {
             throw new CustomException(e);
