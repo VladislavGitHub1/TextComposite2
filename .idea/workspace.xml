@@ -5,19 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d07ed8d9-e5a4-481f-b8fa-d7fdacc7def5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/chernenkov/task/composite/Symbol.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/text.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/text.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/chernenkov/task/chainofresponsibility/ParagraphParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chernenkov/task/chainofresponsibility/ParagraphParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/chernenkov/task/chainofresponsibility/SentenceParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chernenkov/task/chainofresponsibility/SentenceParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/chernenkov/task/chainofresponsibility/TextParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chernenkov/task/chainofresponsibility/TextParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/chernenkov/task/chainofresponsibility/WordParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chernenkov/task/chainofresponsibility/WordParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/chernenkov/task/composite/Letter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/chernenkov/task/composite/TextComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chernenkov/task/composite/TextComponent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/chernenkov/task/composite/TextComposite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chernenkov/task/composite/TextComposite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/chernenkov/task/composite/TextType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chernenkov/task/composite/TextType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/chernenkov/task/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chernenkov/task/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/chernenkov/task/reader/impl/TextReaderImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chernenkov/task/reader/impl/TextReaderImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/chernenkov/task/composite/Symbol.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chernenkov/task/composite/Symbol.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,13 +138,21 @@
       <option name="project" value="LOCAL" />
       <updated>1686240351609</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="12.06.23">
+      <created>1686582754283</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1686582754283</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="5.06.23" />
     <MESSAGE value="8.06.23" />
-    <option name="LAST_COMMIT_MESSAGE" value="8.06.23" />
+    <MESSAGE value="12.06.23" />
+    <option name="LAST_COMMIT_MESSAGE" value="12.06.23" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
